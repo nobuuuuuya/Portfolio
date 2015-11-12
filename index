@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My Portfolio</title>
+
+    <!-- CSSファイル -->
+    <link href="css/Normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+   
+    <!-- jSファイル -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    
+    
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+　<header class="jumbotron">
+      <div class="container">
+        <div></div>
+        <p  id="Home"></p>
+        <br><br><br><br><br><br>
+        <h1>Hello, world!</h1>
+        <p><br></p>
+        <p><a class="btn btn-lg midashi-btn" role="button" href="#Work">Portfolio &raquo;</a></p>
+      </div>
+    </header>
+  <div class="container"> 
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".target">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+        </button>  
+        <a class="navbar-brand" href="#Home"><span class="glyphicon glyphicon-collapse-up"></span>Nobuya Kakuchi</a>
+      </div>
+      <div class="collapse navbar-collapse target">
+      <ul class="nav navbar-nav navbar-right" style="margin-right : 10px;">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Sample">Sample</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  </div>
+  <div class="container">
+  
+
+  <div id="About">
+    <h3>About Me</h3>
+    <p class="aboutme">1988年10月5日生まれ。<br>
+    父親の仕事の都合で札幌、相模原、横浜、神戸、福岡とざっくり日本を縦断しながら育つ。<br>中学校は1年毎に違う学校だった。<br>神戸の高校を卒業後は大阪の大学に進学するが、中退。その後上京し不動産営業マンに。<br>現在は退職し、Web業界への転職を目指し猛勉強中。<br>
+    
+      <br>最近の趣味は読書。Kindleのおかげですごい便利になりましたね。ワンクリックで購入できるおかげで端末内とクラウド上に積んである本が。。。
+     
+    </p>
+  </div>
+  
+   
+    <div id="Skills"><div class="Skills">
+    <h3>Skills</h3>
+    <div class="row">
+      <div class="col-sm-6">
+        <p>HTML5</p>
+        <div class="progress">
+        <div class="progress-bar progress-bar-danger" style="width:70%">70%</div>
+        </div>
+        <p>JavaScript/jQuery</p>
+        <div class="progress">
+        <div class="progress-bar progress-bar-danger" style="width:30%">30%</div>
+        </div>
+        <p>Word/Excel</p>
+        <div class="progress">
+        <div class="progress-bar progress-bar-danger" style="width:70%">70%</div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <p>CSS</p>
+        <div class="progress">
+        <div class="progress-bar progress-bar-danger" style="width:60%">60%</div>
+        </div>
+        <p>PHP/MySQL</p>
+        <div class="progress">
+        <div class="progress-bar progress-bar-danger" style="width:20%">20%</div>
+        </div>
+      </div>
+      <div>
+        
+      </div>
+    </div>
+      
+     
+    
+    </div></div>
+  <div class="container">  
+  <div class="row">
+    <div id="Sample" class="Sample">
+    <h3>Sample</h3>  
+      <div class="col-sm-4">
+        <figure>
+					<a href="sample1/index.html" target=”_blank”><img src="img/sample_site1.jpg" class="img-rounded" alt="sample" width="250" height="167">
+					<figcaption>
+						<h3>sample</h3>
+						<p>Multiscrollが使いたかっただけ、、、</p>
+					</figcaption</a>
+				</figure>
+        <figure>
+					<a href="#Home"><img src="img/doro_on.jpg" class="img-rounded" alt="sample" width="250" height="167">
+					<figcaption>
+						<h3>Caption Title</h3>
+						<p>caption text here ...</p>
+					</figcaption></a>
+				</figure>
+      </div>
+      <div class="col-sm-4">
+        <figure>
+					<a href="#Home"><img src="img/doro_on.jpg" class="img-rounded" alt="sample" width="250" height="167">
+					<figcaption>
+						<h3>Caption Title</h3>
+						<p>caption text here ...</p>
+					</figcaption></a>
+				</figure>
+        <figure>
+					<a href="#Home"><img src="img/doro_on.jpg" class="img-rounded" alt="sample" width="250" height="167">
+					<figcaption>
+						<h3>Caption Title</h3>
+						<p>caption text here ...</p>
+					</figcaption></a>
+				</figure>
+      </div>
+      <div class="col-sm-4">
+        <figure>
+					<a href="#Home"><img src="img/doro_on.jpg" class="img-rounded" alt="sample" width="250" height="167">
+					<figcaption>
+						<h3>Caption Title</h3>
+						<p>caption text here ...</p>
+					</figcaption></a>
+				</figure>
+        <figure>
+					<a href="#Home"><img src="img/doro_on.jpg" class="img-rounded" alt="sample" width="250" height="167">
+					<figcaption>
+						<h3>Caption Title</h3>
+						<p>caption text here ...</p>
+					</figcaption></a>
+				</figure>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+  <div class="container">  
+    
+  </div>   
+  </div>    
+
+     </div>
+  
+  <footer id="footer">
+    <div id="Contact">
+    <p><a href="https://www.facebook.com/people/&#x89d2;&#x5730;&#x4fe1;&#x54c9;/100004405866959" target=”_blank”><img src="img/fb-f-Logo__white_100.png"></a></p>
+    </div>
+	　<p style="text-align:right;"><small>Copyright &copy; 2015 Nobuya Kakuchi</small></p>
+	</footer>
+  
+  </div>  
+  </body>
+</html>
